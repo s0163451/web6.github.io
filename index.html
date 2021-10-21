@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>AD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="my.js"></script>
+  </head>
+  <body>
+   
+  <div id="prodPrice">Выберите тип товара</div>
+ <div>Количество товара:<br/> 
+<input type="text" id="count" value="1" onchange="updatePrice()" />
+ <br/>
+</div>
+  Тип товара:
+  <form>
+    <select name="prodType">
+      <option value="1">Уровень</option>
+      <option value="2">Крепления</option>
+      <option value="3">Рулетка</option>
+    </select>
+    <div id="radios">
+      <label><input type="radio" name="prodOptions" value="option1"> Гвозди</label>
+      <label><input type="radio" name="prodOptions" value="option2"> Дюбеля</label>
+      <label><input type="radio" name="prodOptions" value="option3"> Шурупы</label>
+    </div>
+    <div id="checkboxes">
+      <label><input type="checkbox" name="prop1"> 100м</label>
+      <label><input type="checkbox" name="prop2"> 200м</label>
+    </div>
+
+  </form>
+  
+  </body>
+</html>
